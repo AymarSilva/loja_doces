@@ -20,3 +20,7 @@ INSERT INTO doces VALUES(
     'Chocolate',
     1
 );
+select * from doces;
+desc doces;
+
+UPDATE doces set nome_doce='Brigadeiro',id_categoria=1 where id_doce=1;
